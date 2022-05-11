@@ -1,5 +1,5 @@
 @favorite @regression
-Feature: As a user I want to login to shopping website and add items to my favorite
+Feature: Add Favorite
 
 
   Scenario Outline: As a user I login to website and add <productName> to my favorite and remove it from from my favorite

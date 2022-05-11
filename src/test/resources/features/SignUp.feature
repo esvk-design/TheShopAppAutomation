@@ -1,5 +1,5 @@
 @signUp @regression
-Feature: As a user I want to signup to shopping website
+Feature: Signup
 
   @successfulSignUp
   Scenario Outline: As a user I enter correct information and sign up successfully

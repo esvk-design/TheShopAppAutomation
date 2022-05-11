@@ -1,5 +1,5 @@
 @login @regression
-Feature: As a user I want to login to shopping website
+Feature: Login
   @successfulLogin
   Scenario: As a user I enter correct credentials and login successfully
     Given I am on the happy shop landing page

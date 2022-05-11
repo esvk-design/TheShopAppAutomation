@@ -1,5 +1,5 @@
 @addToCart @regression
-Feature: As a user I want to login to shopping website and add items to my Cart
+Feature: Add To Cart
 
 
   Scenario Outline: As a user I login to website and add an item to my cart and remove the item from my cart

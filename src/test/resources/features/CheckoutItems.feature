@@ -1,5 +1,5 @@
 @checkOut @regression
-Feature: As a user I want to checkout my shopping cart
+Feature: Checkout
 
   Scenario Outline: As a user I checkout items in my shopping card
     Given I am on the happy shop landing page
