@@ -36,10 +36,18 @@
                 <executions>
                     <execution>
                         <id>execution</id>
-                        <phase>verify</phase>
+                        <phase>compile</phase>
                         <goals>
                             <goal>generate</goal>
                         </goals>
+                        <configuration>
+<!--                            <projectName>TheShopAutomation</projectName>-->
+<!--                            <skip>false</skip>-->
+                            <inputDirectory>target</inputDirectory>
+                            <jsonFiles>
+                                <param>**/*.json</param>
+                            </jsonFiles>
+                        </configuration>
                     </execution>
                 </executions>
             </plugin>
